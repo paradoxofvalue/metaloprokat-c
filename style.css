@@ -1,0 +1,52 @@
+/*
+Theme Name: Phantom-Custom for Metaloprokat
+
+Author: Vadim Lavorchuk
+Author URI: #
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#header {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.tiles {margin-bottom: 2.5em;}
+
+ul {list-style: none; margin: 0 0 1em 0; padding-left: 0;}
+li a {color: white;}
+ul.menu li {margin-bottom: 2em; padding-left: 0;}
+ul.sub-menu li {margin-bottom: 1em; padding-left: 0.5em}
+
+.footer-nav {
+	padding: 0; margin: 0; color: #585858;
+}
+#menu-mainpage li a {color: #585858; border: none;}
+#menu-mainpage li {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	width: calc(99%/3);
+}
+#menu-footer li a {
+	color: #585858;
+font-size: .8em
+}
+#menu-footer li {
+	margin-bottom: .5em;
+}
+footer {text-align: center;}
+
+@media screen and (max-width: 980px) {
+#menu-mainpage {display: none;}
+}
+p {
+	text-align: justify;
+}
